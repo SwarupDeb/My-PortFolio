@@ -1,6 +1,6 @@
 # My PortFolio
 
-This is an awesome website project that showcases the power of HTML and CSS to create a beautiful and interactive website. It includes responsive design, smooth scrolling, and various sections like Home, About, Projects, Contact, and more.
+This is my portfolio website project that showcases the power of HTML and CSS to create a beautiful and interactive website. It includes responsive design, smooth scrolling, and various sections like Home, About, Projects, Contact, and more.
 
 ![Website Screenshot]
 <img width="1280" alt="Scrrenshot1" src="https://github.com/SwarupDeb/My-PortFolio/assets/55588687/55c32f53-a847-42b1-9e14-87fe26621b76">
