@@ -4,18 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!--=============== FONT AWESOME ===============-->
+  <!-- Include Font Awesome CSS for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-
-  <!--=============== CSS ===============-->
+   <!-- Include custom stylesheet -->
   <link rel="stylesheet" href="assets/css/styles.css" />
-
   <title>Swarup's portfolio</title>
 </head>
 
 <body>
-  <!--==================== STYLE SWITCHER ====================-->
+  <!-- Input elements for color selection -->
   <input type="radio" name="color" id="color-1"/>
   <input type="radio" name="color" id="color-2"/>
   <input type="radio" name="color" id="color-3"/>
@@ -29,18 +26,23 @@
   <input type="checkbox" id="toggler"/>
   <input type="checkbox" id="day-night"/>
 
+  
+  <!-- Style switcher for changing page styles -->
   <div class="style__switcher">
     <label for="toggler" class="style__switcher-toggler">
       <i class="fa-solid fa-gear fa-spin"></i>
     </label>
 
+    <!-- Toggle button for day/night mode -->
     <label for="day-night" class="style__switcher-theme">
       <i class="fa-solid fa-sun"></i>
       <i class="fa-solid fa-moon"></i>
     </label>
 
+    <!-- Title for color palette selection -->
     <h3 class="style__switcher-title">Palette Aesthetics</h3>
 
+    <!-- Color options for palette selection -->
     <div class="style__switcher-colors">
       <label for="color-1" class="color-1 color"></label>
       <label for="color-2" class="color-2 color"></label>
@@ -55,8 +57,6 @@
       
     </div>
   </div>
-
-  <!--==================== HEADER ====================-->
   <header class="header">
     <nav class="nav container">
       <a href="index.html" class="nav__logo">Swarup</a>
@@ -66,6 +66,7 @@
         <i class="fa-solid fa-bars"></i>
       </label>
 
+      <!-- Navigation links -->
       <ul class="nav__list">
         <li class="nav__item">
           <a href="#home" class="nav__link active-link">Home</a>
@@ -90,9 +91,9 @@
     </nav>
   </header>
 
-  <!--==================== MAIN ====================-->
+   <!-- Main content -->
   <main class="main">
-    <!--==================== HOME ====================-->
+    <!-- ... (content for the home section) -->
     <section class="home" id="home">
       <div class="home__container container grid">
         <div class="home__content">
@@ -113,8 +114,7 @@
         </div>
       </div>
     </section>
-
-    <!--==================== ABOUT ====================-->
+    <!-- ... (content for the about section) -->
     <section class="about section" id="about">
       <div class="about__container container grid">
         <div class="about__img-wrapper">
@@ -174,8 +174,7 @@
         </div>
       </div>
     </section>
-
-    <!--==================== QUALIFICATION ====================-->
+     <!-- ... (content for the qualification section) -->
     <section class="qualification section" id="qualification">
       <h2 class="section__title title-center" data-title="My Adventure">
         Qualification
@@ -294,8 +293,7 @@
         </div>
       </div>
     </section>
-
-    <!--==================== SKILLS ====================-->
+    <!-- ... (content for the skills section) -->
     <section class="skills">
       <h2 class="section__title title-center" data-title="My Powers">Masterful Abilities</h2>
       <div class="skills__container container grid">
@@ -413,7 +411,7 @@
       </div>
     </section>
 
-    <!--==================== PORTFOLIO ====================-->
+    <!-- ... (content for the works section) -->
     <section class="works section" id="works">
       <h2 class="section__title title-center" data-title="My Portfolio">Projects</h2>
       <div class="work__container container grid">
@@ -476,7 +474,8 @@
 
       </div>
     </section>
-    <!--==================== CONTACT ====================-->
+
+    <!-- ... (content for the contact section) -->
     <section class="contact section" id="contact">
       <h2 class="section__title title-center" data-title="Need My Assistance">Send a Message to My Quest Log!</h2>
       <div class="contact__container container grid">
@@ -536,7 +535,7 @@
     </section>
   </main>
 
-  <!--==================== FOOTER ====================-->
+   <!-- Footer section -->
   <footer class="footer">
     <div class="footer__container container">
       <p class="footer__copyright">© 2023 Swarup - All Loot Secured</p>
