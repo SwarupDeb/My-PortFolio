@@ -352,6 +352,21 @@ input[type='checkbox']{
   font-size: var(--big-font-size);
   line-height: 1.4;
 }
+.text__change::before{
+  content: '';
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+  40%,60%{
+    content:'WEB Developer';
+    left:100%
+  }
+  100%{
+    content:'Game Developer';
+    left: 0%;
+  }
+  
+}
 
 .home__title span {
   font-weight: var(--weight-300);
